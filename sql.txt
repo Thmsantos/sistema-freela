@@ -1,0 +1,37 @@
+create database produtos;
+use produtos;
+
+create table items(
+	id int primary key auto_increment,
+    nome_produto varchar(100),
+    valor decimal (5,2)
+);
+
+desc items;
+
+select * from items;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
